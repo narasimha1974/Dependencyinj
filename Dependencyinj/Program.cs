@@ -48,6 +48,7 @@ public interface IBarService
 
 public class BarService : IBarService
 {
+
     private readonly IFooService _fooService;
     public BarService(IFooService fooService)
     {
